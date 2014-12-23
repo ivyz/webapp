@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Schedario Rifugio pan-eppaa</title>
+    <meta name="generator" content="Bootply" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="css/bootstrap.3.min.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+        <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+  </head>
+  <body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="/" class="navbar-brand">Schedario Online</a>
+        </div>
+        <div class="navbar-collapse collapse">
+
+          <ul class="nav navbar-nav">
+            <li>
+              <a href="#">Dati generali</a>
+            </li>
+            <li>
+              <a href="generale.html">Osservazione Generale</a>
+            </li>
+            <li>
+              <a href="relazione.html">Relazione</a>
+            </li>
+            <li>
+              <a href="abituazioni.html">Abituazioni</a>
+            </li>
+            <li>
+              <a href="diario.html">Diario attività</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <!--main-->
+    <div class="container">
+
+      <h2>
+        DATI GENERALI
+      </h2>
+
+      <form class="form-horizontal" role="form">
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Nome</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputEmail3" placeholder="Nome">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Morfologia</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Lupoide</option>
+              <option>Braccoide</option>
+              <option>Molossoide</option>
+              <option>Graioide</option>
+              <option>Bassottoide</option>
+              <option>Volpinoide</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Taglia</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Piccola</option>
+              <option>Media</option>
+              <option>Grande</option>
+              <option>Gigante</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Pelo</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Corto</option>
+              <option>Medio</option>
+              <option>Lungo</option>
+              <option>Duro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Colore</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Bianco-nero</option>
+              <option>Blu</option>
+              <option>Blu con focature</option>
+              <option>Blue tan</option>
+              <option>Cioccolato</option>
+              <option>Cioccolato focato</option>
+              <option>Crema</option>
+              <option>Fegato</option>
+              <option>Fegato e bianco</option>
+              <option>Focato e bianco</option>
+              <option>Fulvo carbonato</option>
+              <option>Giallo</option>
+              <option>Grigio</option>
+              <option>Marrone scuro</option>
+              <option>Merle</option>
+              <option>Nero</option>n>
+              <option>Nero focato</option>
+              <option>Nero striato</option>
+              <option>Tricolore</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Sesso</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>M</option>
+              <option>F</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Sterilizzato</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Si</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Data nascita</label>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" placeholder="gg" pattern="0-9">
+          </div>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" placeholder="mm" pattern="0-9">
+          </div>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="aaaa" pattern="0-9">
+          </div>
+        </div>
+
+        <!--TODO: PROVENIENZA non pervenuta-->
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Stato</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Ospite</option>
+              <option>Adottato</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Data ingresso</label>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" placeholder="gg" pattern="0-9">
+          </div>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" placeholder="mm" pattern="0-9">
+          </div>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="aaaa" pattern="0-9">
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Modalità ingresso</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Affido</option>
+              <option>Cessione</option>
+              <option>Sequestro</option>
+              <option>Sanitario</option>
+              <option>Rientro</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Data uscita</label>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" placeholder="gg" pattern="0-9">
+          </div>
+          <div class="col-sm-2">
+            <input type="text" class="form-control" placeholder="mm" pattern="0-9">
+          </div>
+          <div class="col-sm-3">
+            <input type="text" class="form-control" placeholder="aaaa" pattern="0-9">
+          </div>
+        </div>
+
+        <!--TODO: uscite diverse da adozione non esistenti-->
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Adottabilità</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Assente</option>
+              <option>Bassa</option>
+              <option>Media</option>
+              <option>Alta</option>
+              <option>Condizionata</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Post-adozione</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Si</option>
+              <option>No</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Note fisiologiche</label>
+          <div class="col-sm-10">
+            <select class="form-control">
+              <option>Nessuna nota</option>
+              <option>Non disponibile</option>
+              <option>Vedi sotto</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Note</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="col-sm-2 control-label">Descrizione</label>
+          <div class="col-sm-10">
+            <textarea class="form-control" rows="3"></textarea>
+          </div>
+        </div>
+
+      <!--   <input type="text" class="form-control" placeholder="Text input"> -->
+
+      <!--   <label class="checkbox-inline"> -->
+      <!--     <input type="checkbox" id="inlineCheckbox1" value="option1"> 1 -->
+      <!--   </label> -->
+      <!--   <label class="checkbox-inline"> -->
+      <!--     <input type="checkbox" id="inlineCheckbox2" value="option2"> 2 -->
+      <!--   </label> -->
+      <!--   <label class="checkbox-inline"> -->
+      <!--     <input type="checkbox" id="inlineCheckbox3" value="option3"> 3 -->
+      <!--   </label> -->
+
+      <!--   <label class="radio-inline"> -->
+      <!--     <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 1 -->
+      <!--   </label> -->
+      <!--   <label class="radio-inline"> -->
+      <!--     <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 2 -->
+      <!--   </label> -->
+      <!--   <label class="radio-inline"> -->
+      <!--     <input type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3"> 3 -->
+      <!--   </label> -->
+
+      <!--   <select class="form-control"> -->
+      <!--     <option>1</option> -->
+      <!--     <option>2</option> -->
+      <!--     <option>3</option> -->
+      <!--     <option>4</option> -->
+      <!--     <option>5</option> -->
+      <!--   </select> -->
+      <!-- </form> -->
+
+      <!-- <div class="row"> -->
+      <!--   <div class="col-md-4"> -->
+      <!--   </div> -->
+      <!--   <div class="col-md-4"> -->
+      <!--   </div> -->
+      <!--   <div class="col-md-4"> -->
+      <!--   </div> -->
+      <!-- </div> -->
+      <a href="generale.html" class="btn btn-info btn-lg active" role="button">Successivo &gt; &gt;</a>
+
+    </div><!--/container-->
+
+
+    <!-- script references -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.3.min.js"></script>
+  </body>
+</html>
